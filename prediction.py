@@ -14,7 +14,7 @@ import numpy as np
 from sklearn.impute import SimpleImputer
 from PIL import Image
 from imblearn.under_sampling import RandomUnderSampler 
-
+sec=image.open("icon.png") #backup of icon image 
 icon = Image.open("icon.png")
 st.set_page_config(layout = "wide", page_title = "Prediction Application", page_icon=icon)
 
