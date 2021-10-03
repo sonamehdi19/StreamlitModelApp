@@ -317,7 +317,7 @@ else:
         else:
             from catboost import CatBoostClassifier
             model = CatBoostClassifier().fit(X_train, y_train)
-        
+#add more models for selection        
         preds = model.predict(X_test)
         from sklearn.metrics import accuracy_score
         from sklearn.metrics import confusion_matrix
