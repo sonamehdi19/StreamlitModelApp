@@ -5,7 +5,9 @@ Created on Sat Oct  2 22:38:36 2021
 
 @author: sonamehdizade
 """
-
+import matplotlit.pylot as plt
+import seaborn as sns 
+# adding some plots for visual analysis
 import pandas as pd
 import streamlit as st
 import plotly.express as px
