@@ -5,6 +5,7 @@ Created on Sat Oct  2 22:38:36 2021
 
 @author: sonamehdizade
 """
+import matplotlib.pyplot as plt 
 import seaborn as sns
 import pandas as pd
 import streamlit as st
