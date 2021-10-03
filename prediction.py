@@ -6,7 +6,8 @@ Created on Sat Oct  2 22:38:36 2021
 @author: sonamehdizade
 """
 import matplotlib.pyplot as plt 
-import seaborn as sns
+import seaborn as ass
+#adding plots for visual analysis for the balance and outlier check with sea
 import pandas as pd
 import streamlit as st
 import plotly.express as px
